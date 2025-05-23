@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio_Daniel</title>
+  <link rel="stylesheet" href="Css/Index.css">
+</head>
+<!-- Cree una etiqueta style llamando a la clase me para hacer el estilo del contenido  -->
+<body> 
+  <style>
+    .me {
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  </style>
+
+  <h1>Daniel González Ortiz</h1>
+
+  <!-- Se usó nav para poder crear la navegación -->
+  <nav>
+    <ul> 
+      <li><a href="#presentacion">Presentation</a></li>
+      <li><a href="#habilidades">Skills</a></li>
+      <li><a href="#proyectos">Proyects</a></li>
+      <li><a href="#contacto">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="presentacion"> 
+    <div class="me">
+      <h2 class="title">About me</h2>
+      <p class="parrafos">Hi, I'm Daniel, and I love exploring the world of technology. I'm always looking for opportunities to learn new skills that will help me grow professionally.</p>
+      <p class="parrafos">My main focus is web development and emerging technologies that transform the way we live and work.</p>
+      <div class="Foto">
+      <img src="Imagenes/Captura desde 2025-05-21 19-24-49.png" alt="Foto" max-width="400">
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>HTML y CSS</li>
+      <li>Git y GitHub</li>
+      <li>Python básico</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyects</h2>
+    <h3>Products Inventory</h3>
+    <p>Project to manage the inventory of a store</p>
+    <img src="proyecto1.jpg" alt="Imagen del proyecto" width="300">
+
+    <table>
+      <thead>
+        <tr>
+          <th>Proyects name</th>
+          <th>Technologies Used</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Products Inventory</td>
+          <td>Python</td>
+          <td><a href="https://github.com/Dagor07/Products-Inventory/tree/main" target="_blank">See project</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contacto">
+    <h2>Contact</h2>
+    <form>
+      <label for="nombre">name:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+
+      <label for="correo">email:</label>
+      <input type="email" id="correo" name="correo" required><br>
+
+      <label for="mensaje">Message:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>follow me on:
+      <a href="https://github.com/Dagor07?tab=repositories"_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
