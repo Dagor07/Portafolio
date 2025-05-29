@@ -96,3 +96,9 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+#proyectos {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
