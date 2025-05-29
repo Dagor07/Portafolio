@@ -97,7 +97,7 @@ footer {
   justify-content: center;
 }
 
-#proyectos {
+.proyectos {
     display: flex;
     justify-content: center;
     gap: 400px;
