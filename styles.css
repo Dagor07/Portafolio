@@ -102,5 +102,21 @@ footer {
   margin-top: 30px;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+nav ul li a {
+  transition: background-color 0.3s ease;
+}
+
+section {
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
 
 
