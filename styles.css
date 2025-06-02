@@ -119,4 +119,19 @@ section:hover {
   transform: translateY(-5px);
 }
 
+nav ul li a:hover {
+    background-color: #ff6b6b; /* o el color acento de tu branding */
+    color: white;
+    border-radius: 5px;
+}
+.project-card img {
+    transition: transform 0.3s ease;
+}
+
+.project-card img:hover {
+    transform: scale(1.05);
+}
+html {
+    scroll-behavior: smooth;
+}
 
