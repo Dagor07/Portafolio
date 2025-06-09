@@ -1,5 +1,3 @@
-Este archivo `index.html` representa la estructura base de la página web tipo portafolio personal. 
-
 ## Estructura del HTML
 
 - `<!DOCTYPE html>`  
