@@ -1,6 +1,4 @@
-# # Estructura HTML - Portafolio
-
-Este archivo `index.html` representa la estructura base de una página web tipo portafolio personal. A continuación se describen sus principales secciones y propósitos.
+Este archivo `index.html` representa la estructura base de la página web tipo portafolio personal. 
 
 ## 📄 Estructura del HTML
 
@@ -11,7 +9,7 @@ Este archivo `index.html` representa la estructura base de una página web tipo 
   Inicia el documento en español.
 
 - `<head>`  
-  Contiene metadatos como codificación, título, hoja de estilos y fuentes externas.
+  Contiene datos como título, hoja de estilos y fuentes externas.
 
 - `<body>`  
   Contiene todo el contenido visible del sitio, organizado en las siguientes secciones:
@@ -44,9 +42,7 @@ Incluye:
 ## ✅ Notas adicionales
 
 - El HTML está diseñado para ser responsivo.
-- Utiliza enlaces internos con IDs para navegación fluida.
+- Utiliza IDs para navegación fluida.
 - El código es semántico y fácil de mantener.
 
 ---
-
-© 2025 Daniel González Ortiz
