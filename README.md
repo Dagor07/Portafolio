@@ -1,6 +1,6 @@
 Este archivo `index.html` representa la estructura base de la página web tipo portafolio personal. 
 
-## 📄 Estructura del HTML
+## Estructura del HTML
 
 - `<!DOCTYPE html>`  
   Define el tipo de documento como HTML5.
@@ -14,24 +14,24 @@ Este archivo `index.html` representa la estructura base de la página web tipo p
 - `<body>`  
   Contiene todo el contenido visible del sitio, organizado en las siguientes secciones:
 
-### 🔹 `<header>`
+### `<header>`
 Incluye:
 - Barra de navegación con enlaces internos.
 - Título principal del portafolio.
 
-### 🔹 `<main>`
+### `<main>`
 Contiene las secciones principales:
 - `#presentacion`: breve introducción del autor.
 - `#habilidades`: lista de conocimientos técnicos.
 - `#proyectos`: artículos con proyectos realizados y una tabla resumen.
 - `#contacto`: formulario simple para enviar nombre, correo y mensaje.
 
-### 🔹 `<footer>`
+### `<footer>`
 Incluye:
 - Enlace a GitHub.
 - Derechos reservados con el año y nombre del autor.
 
-## 🖼 Archivos y dependencias
+## Archivos y dependencias
 
 - `style.css`: hoja de estilos externa vinculada desde el `<head>`.
 - Imágenes ubicadas en la carpeta `img/`.
@@ -39,7 +39,7 @@ Incluye:
 
 ---
 
-## ✅ Notas adicionales
+## Notas adicionales
 
 - El HTML está diseñado para ser responsivo.
 - Utiliza IDs para navegación fluida.
