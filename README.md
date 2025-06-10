@@ -15,19 +15,19 @@
 ### `<header>`
 Incluye:
 - Barra de navegación con enlaces internos.
-- Título principal del portafolio.
+- Título del portafolio.
 
 ### `<main>`
 Contiene las secciones principales:
-- `#presentacion`: breve introducción del autor.
-- `#habilidades`: lista de conocimientos técnicos.
-- `#proyectos`: artículos con proyectos realizados y una tabla resumen.
-- `#contacto`: formulario simple para enviar nombre, correo y mensaje.
+- `#presentacion`: Una breve introducción mía.
+- `#habilidades`: Lista de conocimientos técnicos.
+- `#proyectos`: Artículos con mis proyectos realizados y una tabla resumen.
+- `#contacto`: Formulario simple para enviar nombre, correo y mensaje.
 
 ### `<footer>`
 Incluye:
 - Enlace a GitHub.
-- Derechos reservados con el año y nombre del autor.
+- Derechos reservados.
 
 ## Archivos y dependencias
 
