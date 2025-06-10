@@ -1,9 +1,10 @@
+/* Se empieza con un reset simple */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Se hace los estilos de las etiquetas principales */
 body {
   font-family: 'Poppins', Arial, sans-serif;
   background: #f6f9fb;
@@ -14,8 +15,9 @@ body {
 header {
   background: #1f2937;
   color: #fff;
-  padding: 24px 0;
+  padding: 24px 0 12px 0;
   text-align: center;
+  margin-bottom: 20px;
   box-shadow: 0 2px 8px #c1d4fa22;
 }
 
@@ -50,23 +52,23 @@ main {
   margin: 0 auto;
 }
 
+/* Se hace los estilos de las clases */
 .me {
   margin: 32px 0;
 }
 
-.presentacion_flex {
+.presentation_flex {
   display: flex;
   align-items: center;
   gap: 32px;
   flex-wrap: wrap;
-  flex-direction: column;
+  justify-content: center;
 }
 
-.presentacion_flex img {
+.presentation_flex img {
   border-radius: 250px;
   box-shadow: 0 2px 12px #2061e722;
-  max-width: 220px;
-  width: 200px;
+  max-width: 140px;
   -webkit-border-radius: 250px;
   -moz-border-radius: 250px;
   -ms-border-radius: 250px;
@@ -93,14 +95,14 @@ main {
   background: #c7d2fe;
 }
 
-.portafolio-lista {
+.portfolio_list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   margin: 24px 0;
 }
 
-.proyecto {
+.proyect {
   background: #fff;
   border-radius: 12px;
   padding: 20px;
@@ -108,13 +110,13 @@ main {
   transition: transform 0.25s, box-shadow 0.25s;
   text-align: center;
 }
-.proyecto:hover {
+
+.proyect:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 4px 16px #2061e722;
 }
-.proyecto img {
-  max-width: 240px;
-  width: 200px;
+.proyect img {
+  max-width: 140px;
   border-radius: 10px;
   margin-bottom: 12px;
 }
@@ -134,4 +136,94 @@ main {
 .btn:hover {
   background: #f97316;
   transform: translateY(-3px) scale(1.06);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin: 24px 0;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px #e2e8f022;
+}
+
+th, td {
+  padding: 12px 8px;
+  text-align: center;
+  border-bottom: 1px solid #e0e7ef;
+}
+th {
+  background: #dbeafe;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+
+form {
+  background: #fff;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+form input, form textarea {
+  border: 1px solid #e0e7ef;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 1em;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+form input:focus, form textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+form button {
+  margin-top: 8px;
+}
+
+footer {
+  background: #1f2937;
+  color: #dbeafe;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 48px;
+  font-size: 0.98em;
+}
+footer a {
+  color: #f97316;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #38bdf8;
+}
+
+.contact_1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .portfolio_list {
+    grid-template-columns: 1fr;
+  }
+  .presentation_flex {
+    flex-direction: column;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    gap: 30px;
+  }
+  main {
+    width: 98%;
+  }
+  form {
+    padding: 10px 5px;
+  }
 }
