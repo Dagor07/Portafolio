@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
+<!-- Define el tipo de documento como HTML5. -->
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -9,31 +10,32 @@
 </head>
 <body>
   <header>
+<!-- El header incluye barra de navegación con enlaces internos y título principal del portafolio. -->
     <nav>
       <ul>
-        <li><a href="#presentación">Presentación</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#presentation">Presentación</a></li>
+        <li><a href="#proyects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
       </ul>
     </nav>
     <h1>Daniel González Ortiz</h1>
   </header>
 
   <main>
-    <section id="presentacion" class="me">
+<!-- El main Contiene las secciones principales: -->
+    <section id="presentation" class="me">
       <h2>Sobre mí</h2>
-      <div class="presentacion_flex">
+      <div class="presentation_flex">
         <div>
           <p>Hola, soy Daniel. Apasionado por la tecnología, en constante búsqueda de nuevas habilidades para crecer profesionalmente. Me enfoco en desarrollo web y tecnologías emergentes que transforman la vida y el trabajo.</p>
         </div>
-        <div class="foto">
+        <div class="picture">
           <img src="img/Foto.png "Foto" width="180">
         </div>
       </div>
     </section>
 
-    <section id="habilidades">
+    <section id="Skills">
       <h2>Habilidades Técnicas</h2>
       <ul class="skills_list">
         <li>HTML y CSS</li>
@@ -42,25 +44,31 @@
       </ul>
     </section>
 
-    <section id="proyectos">
+    <section id="proyects">
       <h2>Proyectos</h2>
-      <div class="portafolio_lista">
-        <article class="proyecto">
-          <img src="img/Products Inventory.png" alt="Products Inventory" width="160">
+      <div class="portfolio_list">
+        <article class="proyect">
+          <img src="img/Products_Inventory.png" alt="Products Inventory" width="160" height="276">
           <h3>Products Inventory</h3>
           <p>Gestor de inventario para tiendas.</p>
           <a href="https://github.com/Dagor07/Products-Inventory/tree/main" target="_blank" class="btn">Ver proyecto</a>
         </article>
-        <article class="proyecto">
+        <article class="proyect">
           <img src="img/Restaurant.png"Restaurant Menu" width="160">
           <h3>Restaurant Menu</h3>
           <p>Menú digital para restaurantes.</p>
           <a href="https://dagor07.github.io/Menu-card/" target="_blank" class="btn">Ver proyecto</a>
         </article>
-        <article class="proyecto">
-          <img src="img/Entregable S1.png" alt="Products Inventory" width="160">
+        <article class="proyect">
+          <img src="img/Entregable_S1.png" alt="Products Inventory" width="160">
           <h3>Entregable page</h3>
           <p>Entregable semana 1 Riwi.</p>
+          <a href="https://dagor07.github.io/Portafolio/" target="_blank" class="btn">Ver proyecto</a>
+        </article>
+        <article class="proyect">
+          <img src="img/Prueba_de_desempeño.png" alt="Products Inventory" width="160">
+          <h3>Prueba page</h3>
+          <p>Prueba de desempeño Riwi.</p>
           <a href="https://dagor07.github.io/Portafolio/" target="_blank" class="btn">Ver proyecto</a>
         </article>
       </div>
@@ -84,12 +92,22 @@
             <td>HTML, CSS</td>
             <td><a href="https://dagor07.github.io/Menu-card/" target="_blank">Ver</a></td>
           </tr>
+          <tr>
+            <td>Entregable semana 1 Riwi</td>
+            <td>HTML, CSS</td>
+            <td><a href="https://dagor07.github.io/Portafolio/" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Prueba de desempeño Riwi</td>
+            <td>HTML, CSS</td>
+            <td><a href="https://github.com/Dagor07/Products-Inventory/tree/main" target="_blank">Ver</a></td>
+          </tr>
         </tbody>
       </table>
     </section>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
+    <section id="contact">
+      <h2 class="contact_1">Contacto</h2>
       <form>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
@@ -103,6 +121,7 @@
   </main>
 
   <footer>
+    <!-- Incluye el enlace a mi GitHub y los derechos reservados -->
     <p>Sígueme en <a href="https://github.com/Dagor07" target="_blank">GitHub</a></p>
     <small>&copy; 2025 Daniel González Ortiz</small>
   </footer>
